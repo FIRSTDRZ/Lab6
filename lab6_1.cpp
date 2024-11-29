@@ -4,8 +4,8 @@ using namespace std;
 int main(){
     int i =1;
     int num = 0;
-    double even = 0;
-    double odd = 0;
+    double Even = 0;
+    double Odd = 0;
     while (i > 0){
         cout << "Enter an integer: ";
         cin>>num;
@@ -13,14 +13,14 @@ int main(){
             i -=1;
         }
         else if(num%2 !=0 ){
-            odd += 1;
+            Odd += 1;
         }
         else if (num%2 == 0) {
-            even +=1;
+            Even +=1;
         }
     }
     
-    cout << "#Even numbers = "<<even<<"\n";
-    cout << "#Odd numbers = "<<odd;
+    cout << "#Even numbers = "<<Even<<"\n";
+    cout << "#Odd numbers = "<<Odd;
     return 0;
 }
